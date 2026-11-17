@@ -1,0 +1,23 @@
+# Run17 research summary
+
+Run `2026-11-17T04-08-08-259Z-ba89c4b5`; phase RESEARCH. The requested constant-factor order remains unresolved. No complete original-problem candidate, verification or conclusion exists, and DONE is not justified.
+
+The strongest reviewed upper is f(n)-n/3=O(n/sqrt(log n)), for every sufficiently large cardinality, with witnesses in[n²]. The [standalone proof](../../../proof/lemmas/square-root-logarithmic-upper-bound.md), [fresh end-to-end review](../../../docs/reviews/run17-standalone-upper-review.md), and [return/composition bundle](../../notes/run17-hellinger-manifest.md) are saved. The known lower remains Omega(loglog n), as recorded in the [lower audit](../../../docs/literature/lower-bound-audit.md). No publication-priority claim is made.
+
+The [localized-return bundle](../../ARCHIVE_INDEX.md#record-210) and [time-profile bundle](../../ARCHIVE_INDEX.md#record-100) record completed generic covering and coherent-moment obstructions. The many-bin obstruction transfers to actual integer progression differences at exactly L=4*6^k while retaining its saved divisibility and window conditions. It fails the prescribed-shift exclusion, so it does not refute the joint arithmetic route.
+
+The [centered-overlap bundle](../../notes/run17-centered-overlap-manifest.md) exploits that missing condition. Reviewed small-anchor and near-full-overlap exclusions leave a middle regime. Scalar stability and the [spatial-model bundle](../../ARCHIVE_INDEX.md#record-104) give interval models in one cyclic quotient at each fixed precision, for mean anchors bounded away from0 and1/3. Quotient order exceeds8/eta.
+
+The [space-time/phase bundle](../../notes/run17-spacetime-model-manifest.md) is fully reviewed PASS. Actual pointwise centering, finite-circle transport and all-phase geometric coercivity lead to a middle-third character model with an arbitrary real linear time phase. A separate Fourier-modulation/smoothing-ODE proof gives an explicit linear L1 phase modulus, and its parameter substitution also passes review. The spatial inverse threshold remains implicit; fixed-precision approximation does not contradict a smaller positive surplus.
+
+The [current quantitative spatial audit](../../ARCHIVE_INDEX.md#record-028) identifies a local estimate after one fixed coarse inverse approximation as a possible repair. Its first [restricted discriminator](../../ARCHIVE_INDEX.md#record-111) now passes review: with one exact interval input, arbitrary other partial fibers have interval models with error at most2nu+21(E+1/n)^(1/3)+4/n. The finite carry identity and zero-count circle case are proved. Replacing a merely approximate input incurs a cube-root error in the old approximation, so this bound does not improve itself by iteration.
+
+A final reviewed [fiber-phase control](../../ARCHIVE_INDEX.md#record-211), [review](../../ARCHIVE_INDEX.md#record-212), rules out a phase-only obstruction for fixed-length, hole-free interval fibers in T times a finite group. It retains an explicit small real phase-lift hypothesis and does not cover arbitrary occupancy.
+
+Next concrete check: allow both uncertain inputs to differ from interval preimages only inside narrow boundary strips, retain correlated partial fibers, and test a joint local stability inequality with movable endpoints. This is narrower than the full two-input problem and could either justify the next tail argument or reveal an obstruction. Independent averaging of two partial fibers is invalid. Further gaps are shrinking-anchor control and conversion to a sharper unconditional origin radius.
+
+All selected reviews are complete; no long computation, review, or cleanup is pending. [PLAN](../../ARCHIVE_INDEX.md#record-173), [STATUS](../../ARCHIVE_INDEX.md#record-209), and [INDEX](../../ARCHIVE_INDEX.md#record-172) retain the continuation route and earlier evidence. The problem statement and run metadata were left unchanged.
+
+Handoff checks: the nine main frozen proofs checked at closure match their reviewed hashes; current summary, plan, status, index and manifest links resolve. The checkpoint retains the launch run ID and the unchanged problem SHA256.
+
+At launch-defined wrap-up, the handoff was refreshed using existing evidence. Three consecutive automatic continuation turns revalidated the same launch-window restriction; no new window or unfinished handoff action appeared, and all worker agents are confirmed completed. The blocked audit threshold is met. The original objective remains unresolved; a new authorized run window is required for the saved next check. No new verification or conclusion report was produced and no DONE claim was made.
